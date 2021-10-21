@@ -34,7 +34,7 @@ class BasePage:
         elem.send_keys(value)
         return self
 ```
-`MainPage`  наследуте  от класса BasePage, он содержит методы, относящиеся к этой странице, которые будут использоваться для создания шагов теста.
+`MainPage`  наследует  от класса BasePage, он содержит методы, относящиеся к этой странице, которые будут использоваться для создания шагов теста.
 ```python
 #MainPage.py
 class MainPage(BasePage):
